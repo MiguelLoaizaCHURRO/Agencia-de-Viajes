@@ -1,0 +1,217 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+3
+7
+destino
+1
+0
+4
+dias
+1
+0
+9
+continuar
+4
+'si'
+6
+3
+11
+costoPorDia
+1
+0
+10
+costoTotal
+1
+0
+9
+descuento
+1
+0
+9
+1
+16
+continuar = 'si'
+4
+1
+35
+'Bienvenido a la Agencia de Viajes'
+4
+1
+12
+'Destinos: '
+4
+1
+29
+'1. Playa ($500.000 por día)'
+4
+1
+31
+'2. Montaña ($400.000 por día)'
+4
+1
+30
+'3. Ciudad ($300.000 por día)'
+4
+1
+25
+'Seleccione su destino: '
+5
+1
+7
+destino
+7
+0
+1
+11
+destino = 1
+7
+0
+1
+11
+destino = 2
+7
+0
+1
+11
+destino = 3
+4
+1
+38
+'Opcion invalida. Intente nuevamente.'
+6
+1
+7
+destino
+1
+0
+13
+6
+1
+11
+costoPorDia
+6
+300000
+4
+1
+24
+'Su destino es: Ciudad.'
+13
+13
+6
+1
+11
+costoPorDia
+6
+400000
+4
+1
+25
+'Su destino es: Montaña.'
+13
+13
+6
+1
+11
+costoPorDia
+6
+500000
+4
+1
+23
+'Su destino es: Playa.'
+13
+4
+1
+54
+'Ingrese el número de días de estancia (mayor que 0):'
+5
+1
+4
+dias
+7
+0
+1
+9
+dias <= 0
+13
+4
+1
+39
+'El número de días debe ser mayor a 0.'
+13
+6
+1
+10
+costoTotal
+18
+costoPorDia * dias
+7
+0
+1
+9
+dias >= 7
+7
+0
+1
+9
+dias >= 3
+13
+6
+1
+9
+descuento
+17
+costoTotal * 0.10
+13
+13
+6
+1
+9
+descuento
+17
+costoTotal * 0.15
+13
+6
+1
+11
+costoTotal 
+22
+costoTotal - descuento
+4
+1
+46
+'El costo total de su viaje es: $', costoTotal
+4
+1
+46
+'Se ha aplicado un descuento de: $', descuento
+4
+1
+39
+'¿Desea realizar otra reserva? (si/no)'
+5
+1
+9
+continuar
+7
+0
+1
+59
+continuar != 'si' and continuar != 'no' and continuar = ' '
+13
+4
+1
+25
+'Porfavor digite si o no'
+13
+11
+4
+1
+52
+'Gracias por usar la agencia de viajes ¡Buen viaje!'
+1
